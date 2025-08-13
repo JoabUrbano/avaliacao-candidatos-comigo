@@ -1,0 +1,29 @@
+{
+  "name": "avaliacao-candidatos-comigo",
+  "version": "1.0.0",
+  "description": "Projeto avaliativo da Comigo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/http/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoabUrbano/avaliacao-candidatos-comigo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoabUrbano/avaliacao-candidatos-comigo/issues"
+  },
+  "homepage": "https://github.com/JoabUrbano/avaliacao-candidatos-comigo#readme",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
