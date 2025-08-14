@@ -37,9 +37,10 @@ router.post('/', (req, res) => {
     const returnInfo: dto.TicketDTO = {
         title,
         description,
-        userId,
+        status: 'open',
         createdAt: new Date(),
         updatedAt: new Date(),
+        userId,
     };
     res.status(201).json(returnInfo);
     });
